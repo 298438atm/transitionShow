@@ -15,6 +15,6 @@ new TransitionAction({
   // timingFunction 速率
   // delay  延时时间
 	transitionData: {duration: '2s', timingFunction: 'ease', delay: '.5s'},
-  // 是否页面回滚的时候保留动画，默认动画只执行一次
-	// recovery: true
+  // 是否页面回滚的时候保留动画，默认为false动画只执行一次
+	recovery: true
 })
